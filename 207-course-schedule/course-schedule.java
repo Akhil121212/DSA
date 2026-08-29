@@ -20,7 +20,6 @@ class Solution {
         }
         return true;
     }
-    
     private boolean hasCycle(List<List<Integer>> graph, int node, int[] state) {
         if (state[node] == 1) return false;
         if (state[node] == 2) return true;
